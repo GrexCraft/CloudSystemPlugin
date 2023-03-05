@@ -1,0 +1,11 @@
+name: CloudSystem
+author: konrad2002
+version: 0.1
+main: net.grexcraft.cloud_plugin.CloudSystemPlugin
+commands:
+  sendtoproxy:
+    description: Send data to bungee
+    usage: /sendtoproxy <data>
+  dev:
+    description: Connect to development server
+    usage: /dev
