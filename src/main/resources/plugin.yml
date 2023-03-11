@@ -2,6 +2,7 @@ name: CloudSystem
 author: konrad2002
 version: 0.1
 main: net.grexcraft.cloud_plugin.CloudSystemPlugin
+load: POSTWORLD
 commands:
   sendtoproxy:
     description: Send data to bungee
@@ -9,3 +10,9 @@ commands:
   dev:
     description: Connect to development server
     usage: /dev
+  modifyserver:
+    description: Change server state in cloud service
+    usage: /modifyserver <state>
+  whereami:
+    description: get name of current server
+    usage: /whereami

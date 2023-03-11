@@ -18,7 +18,8 @@ public class DevCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
 
-        if (commandSender instanceof Player player) {
+        if (commandSender instanceof Player) {
+            Player player = (Player) commandSender;
             ByteArrayDataOutput out = ByteStreams.newDataOutput();
             out.writeUTF("Connect");
             out.writeUTF("dev");
