@@ -1,7 +1,7 @@
 package net.grexcraft.cloud_plugin.command;
 
 import net.grexcraft.cloud_plugin.CloudSystemPlugin;
-import net.grexcraft.cloud_plugin.enums.ServerState;
+import net.grexcraft.cloud.core.enums.ServerState;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

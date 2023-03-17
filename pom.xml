@@ -27,6 +27,13 @@
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/GrexCraft/CloudSystemService</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -62,6 +69,12 @@
             <artifactId>lombok</artifactId>
             <version>1.18.26</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.grexcraft</groupId>
+            <artifactId>cloud-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
 

@@ -5,7 +5,7 @@ import net.grexcraft.cloud_plugin.command.DevCommand;
 import net.grexcraft.cloud_plugin.command.ModifyServerCommand;
 import net.grexcraft.cloud_plugin.command.SendToProxyCommand;
 import net.grexcraft.cloud_plugin.command.WhereamiCommand;
-import net.grexcraft.cloud_plugin.enums.ServerState;
+import net.grexcraft.cloud.core.enums.ServerState;
 import net.grexcraft.cloud_plugin.listener.BungeePluginMessageListener;
 import net.grexcraft.cloud_plugin.model.ModifyServerRequest;
 import org.bukkit.Bukkit;

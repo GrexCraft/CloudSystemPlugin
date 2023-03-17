@@ -3,7 +3,7 @@ package net.grexcraft.cloud_plugin.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import net.grexcraft.cloud_plugin.enums.ServerState;
+import net.grexcraft.cloud.core.enums.ServerState;
 
 @Data
 @AllArgsConstructor
