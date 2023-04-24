@@ -9,5 +9,8 @@
         <module name="cloud_plugin" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CloudSystemPlugin" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

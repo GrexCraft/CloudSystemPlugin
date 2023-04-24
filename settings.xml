@@ -16,14 +16,14 @@
                     <url>https://repo1.maven.org/maven2</url>
                 </repository>
                 <repository>
-                    <id>github</id>
+                    <id>github_plugin</id>
                     <url>https://maven.pkg.github.com/GrexCraft/CloudSystemPlugin</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>github</id>
+                    <id>github_service</id>
                     <url>https://maven.pkg.github.com/GrexCraft/CloudSystemService</url>
                     <snapshots>
                         <enabled>true</enabled>
