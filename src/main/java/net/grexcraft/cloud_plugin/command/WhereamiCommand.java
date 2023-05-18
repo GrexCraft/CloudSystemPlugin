@@ -6,8 +6,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.event.entity.EntityInteractEvent;
-import org.bukkit.event.player.PlayerArmorStandManipulateEvent;
 
 public class WhereamiCommand implements CommandExecutor {
     private final String serverName;

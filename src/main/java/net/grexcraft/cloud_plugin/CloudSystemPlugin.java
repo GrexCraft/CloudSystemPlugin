@@ -1,11 +1,9 @@
 package net.grexcraft.cloud_plugin;
 
 import net.grexcraft.cloud_plugin.client.CloudWebClient;
-import net.grexcraft.cloud_plugin.command.DevCommand;
 import net.grexcraft.cloud_plugin.command.ModifyServerCommand;
-import net.grexcraft.cloud_plugin.command.SendToProxyCommand;
 import net.grexcraft.cloud_plugin.command.WhereamiCommand;
-import net.grexcraft.cloud.core.enums.ServerState;
+import net.grexcraft.cloud_plugin.enums.ServerState;
 import net.grexcraft.cloud_plugin.listener.BungeePluginMessageListener;
 import net.grexcraft.cloud_plugin.model.ModifyServerRequest;
 import org.bukkit.Bukkit;
@@ -46,8 +44,6 @@ public class CloudSystemPlugin extends JavaPlugin {
     }
 
     private void initCommands() {
-        getCommand("sendtoproxy").setExecutor(new SendToProxyCommand());
-        getCommand("dev").setExecutor(new DevCommand(this));
         getCommand("modifyserver").setExecutor(new ModifyServerCommand(this));
         getCommand("whereami").setExecutor(new WhereamiCommand(serverName));
     }

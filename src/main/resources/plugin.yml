@@ -4,15 +4,10 @@ version: 0.1
 main: net.grexcraft.cloud_plugin.CloudSystemPlugin
 load: POSTWORLD
 commands:
-  sendtoproxy:
-    description: Send data to bungee
-    usage: /sendtoproxy <data>
-  dev:
-    description: Connect to development server
-    usage: /dev
   modifyserver:
     description: Change server state in cloud service
     usage: /modifyserver <state>
+    permission: grexcraft.cloud.modifyserver
   whereami:
     description: get name of current server
     usage: /whereami
